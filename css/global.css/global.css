@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    font-family: Helvetica,roboto;
+    overflow-x:hidden;
+}
+
+h1,h2,p,button{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+
+    font-size: 48px;
+
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#050038;
+}
+

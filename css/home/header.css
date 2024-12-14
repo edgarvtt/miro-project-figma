@@ -1,0 +1,62 @@
+
+/* ajustes de posicionamento */
+
+.menu,.menu-nav-1,.menu-nav-2{
+
+    display: flex;
+
+}
+
+.menu{
+
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+
+}
+
+.menu-nav-1{
+
+    gap:20px;
+    margin-left: 20px;
+
+}
+
+.menu-nav-2{
+
+    gap:18px;
+    margin-right: 40px;
+}
+
+/*icons*/
+
+.flex-arrow{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.arrow{
+
+    width: 10px;
+    height: 10px;
+}
+
+.menu-nav-1 img{
+    width: 91;
+    height: 32px;
+    margin-top: 5px;
+}
+
+.lang{
+
+    display: flex;
+    align-items: center;
+    gap:12px;
+    margin-top: -2px;
+}
+

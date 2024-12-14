@@ -1,0 +1,61 @@
+/* ajustes layout */
+
+.grid-colaboradores{
+    display: grid;
+    gap: 20px;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.flex-colaboradores{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-flex-colaboradores{
+
+    max-width: 300px;
+
+}
+
+/*ajustes fontes*/
+
+.grid-colaboradores h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.p-colaboradores{
+
+    font-size: 16px;
+
+}
+
+.colaboradores-a{
+
+    margin-left: 500px;
+    padding: 16px 32px;
+}
+
+.destaque-colaboradores{
+    color: #4262FF;
+}
+
+/*botao colaboradores*/
+
+.button-colaboradores{
+
+    background-color: #FFD02F;
+    color: #090909;
+    position: relative;
+    top:1px;
+    max-width: 180px;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 700px;
+    border: none;
+    transform: skewY(15deg); /* vira vertical */
+}

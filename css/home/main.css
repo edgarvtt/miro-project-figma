@@ -1,0 +1,97 @@
+
+/*posicionamento*/
+
+.main-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+
+/* ajustes fontes */
+
+.main-grid h1{
+
+    font-size: 48px;
+
+}
+
+.p-main{
+    font-size: 18px;
+
+}
+
+.p-subti{
+    margin-top: 16px;
+    font-size:14px;
+    font-size: 16px;
+
+}
+
+/* formulario */
+
+.form{
+
+    margin-top:30px;
+    width: 440px;
+    height: 48px;
+    padding:2px;
+    border-radius: 32px;
+
+}
+
+/* fotos */
+
+.main-photo-2{
+    margin-top: 40px;
+}
+
+/* botao */
+
+.button-main{
+
+    background-color: #4262FF;
+    width: 440px;
+    height: 48px;
+    border-radius: 32px;
+    color: #ffffff;
+    padding: 16px 16px;
+    margin-top: 8px;
+    border: none;
+    font-size: 18px;
+}
+
+.button-main:hover{
+
+    background-color: #050038bd;
+    cursor: pointer;
+}
+
+.form::placeholder{
+
+    color: #050038B8;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.form:focus{
+
+    border-color:#4262FF;
+    padding: 4px;
+    outline: none;
+
+}
+
+/* especiais */
+
+.idea{
+    
+    background-color: #050038;
+    color: #fb5;
+    padding: 4px 6px;
+    border-radius: 10px;
+}

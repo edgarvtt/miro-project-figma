@@ -18,14 +18,21 @@
 .flex-built a{
 
     padding: 16px 12px;
-    background-color: #F1F3FD;
     border-radius: 24px;
-
+    cursor: pointer;
+    border: 1px solid #c8c8c8;
 }
 
+.flex-built a:hover{
+
+    background-color:#5b77ff26;
+    ;
+
+}
 .grid-built{
 
     display: grid;
+    gap:10px;
     grid-template-columns: 1fr 1fr;
 
 }
@@ -33,13 +40,13 @@
 .text-built{
 
     margin-top: 20px;
-    margin-left: 14px;
+    margin-left: 8px;
 
 }
 
 .text-built p {
 
-    font-size: 18px;
+    font-size: 16px;
     color: #050038B2;
 }
 
@@ -50,5 +57,29 @@
     top:40px;
     text-decoration:underline;
     cursor: pointer;
+
+}
+
+.active-built{
+
+    background-color: #395aff;
+    color: #ffff;
+
+}
+
+.flex-built .active-built:hover{
+
+    background-color: #395aff !important;
+    color: #ffff !important;
+
+}
+
+.built-way section {
+    display:none;
+}
+
+.ativar-texto-built{
+
+    display: block !important;
 
 }

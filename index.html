@@ -7,6 +7,7 @@
     <title>Miro</title>
     <link rel="icon" href="./img/miro.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="./JS/script.js"></script>
 </head>
 <body>
     
@@ -20,9 +21,34 @@
 
             <ul class="menu-nav-1">
 
-                <li class="flex-arrow"><a href="#">Product</a> <img class="arrow"src="./img/arrow.svg"></li>
-                <li class="flex-arrow"><a href="#">Solutions</a><img class="arrow"src="./img/arrow.svg"></li>
-                <li class="flex-arrow"><a href="#">Resources</a><img class="arrow"src="./img/arrow.svg"></li>
+                <li class="flex-arrow"><a href="#">Product</a><img class="arrow"src="./img/arrow.svg">
+                
+                    <ul class="dropdown">
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Integrations</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="flex-arrow"><a href="#">Solutions</a><img class="arrow"src="./img/arrow.svg">
+                    
+                    <ul class="dropdown">
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Non-Profit</a></li>
+                    </ul>
+                
+                </li>
+                <li class="flex-arrow"><a href="#">Resources</a><img class="arrow"src="./img/arrow.svg">
+                
+                    <ul class="dropdown">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+
+                </li>
                 <li class="flex-arrow"><a href="#">Enterprise</a></li>
                 <li class="flex-arrow"><a href="#">Pricing</a></li>
 
@@ -193,6 +219,49 @@
         <a href="#" class="button-menu colaboradores-a">View the report →</a>
 
     </section>
+
+    <section class="built-way">
+
+
+        <h2>Built for the way you work</h2>
+
+        <div>
+
+        <ul class="flex-built">
+            <li><a href="#">Brainstorming</a></li>
+            <li><a href="#">Diagramming</a></li>
+            <li><a href="#">Meetings & Workshops</a></li>
+            <li><a href="#">Scrum Events</a></li>
+            <li><a href="#">Mapping</a></li>
+            <li><a href="#">Research & Design</a></li>
+            <li><a href="#">Strategic Planning</a></li>
+
+        </ul>
+
+        </div>
+
+        <div class="grid-built">
+
+            <div class="text-built">
+
+                <h4>Brainstorming</h4>
+                <p>Unleash creative ideas and build on<br>
+                    them with the help of sticky notes,<br>
+                     images, mind maps, videos, drawing <br>
+                     capabilities — the list goes on.</p>
+                     <a> learn more <span>→</span> </a>
+
+            </div>
+
+            <div>
+                <img src="./img/built-photo.png">
+            </div>
+
+        </div>
+
+
+    </section>
+
 
 </body>
 </html>

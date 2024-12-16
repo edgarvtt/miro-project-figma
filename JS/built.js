@@ -1,7 +1,8 @@
 /*primeiro tem que selecionar os elementos em forma de array*/
 const tabMenuBuilt = document.querySelectorAll('.js-built-menu li a');
 const tabContentBuilt = document.querySelectorAll('.js-built-text section');
-
+tabContentBuilt[0].classList.add('ativar-texto-built');
+tabMenuBuilt[0].classList.add('active-built')
 
 function ativarBuilt(index){
 

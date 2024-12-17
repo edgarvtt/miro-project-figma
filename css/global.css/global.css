@@ -40,3 +40,17 @@ p{
     color:#050038B8;
 
 }
+
+.grid-geral{
+
+    display: grid;
+    gap: 14px;
+
+}
+
+.grid-geral-secao2{
+
+    display: grid;
+    gap:36px;
+
+}

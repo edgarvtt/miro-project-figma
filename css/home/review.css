@@ -56,3 +56,10 @@
     position: relative;
     top:24px;
 }
+
+.grid-special-review{
+
+    display: grid;
+    gap: 52px;
+
+}

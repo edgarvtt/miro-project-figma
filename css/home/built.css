@@ -7,7 +7,9 @@
 }
 
 .flex-built{
-
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,7 +32,9 @@
 
 }
 .grid-built{
-
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     gap:10px;
     position: relative;
